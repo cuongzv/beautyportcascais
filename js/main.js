@@ -29,6 +29,7 @@ event.preventDefault();
 window.setTimeout(navigate, 800);
 }
 window.gtag("event", "conversion", {
+// KHI NHÂN BẢN: mã chuyển đổi Google Ads, đổi cùng với mã gtag trong index.html khi sang tài khoản Ads khác.
 send_to: "AW-18306026037/ftDqCPqBofBcELWU_5hE",
 event_category: "contact",
 event_label: channel,
