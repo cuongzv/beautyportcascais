@@ -449,7 +449,7 @@ h3 {
   z-index: -1;
   opacity: .04;
   pointer-events: none;
-  background-image: url(/beauty-port-logo.svg), url(/beauty-port-logo.svg), url(/beauty-port-logo.svg);
+  background-image: url(../beauty-port-logo.svg), url(../beauty-port-logo.svg), url(../beauty-port-logo.svg);
   background-position: 8% 18%, 88% 10%, 46% 88%;
   background-repeat: no-repeat;
   background-size: 24rem, 18rem, 30rem;
@@ -1078,7 +1078,7 @@ footer a {
   z-index: -1;
   filter: grayscale() brightness(3);
   opacity: .075;
-  background-image: url(/beauty-port-logo.svg), url(/beauty-port-logo.svg), url(/beauty-port-logo.svg), url(/beauty-port-logo.svg), url(/beauty-port-logo.svg);
+  background-image: url(../beauty-port-logo.svg), url(../beauty-port-logo.svg), url(../beauty-port-logo.svg), url(../beauty-port-logo.svg), url(../beauty-port-logo.svg);
   background-position: 95% 5%, 8% 34%, 67% 43%, 38% 90%, 92% 82%;
   background-repeat: no-repeat;
   background-size: 34rem, 22rem, 18rem, 27rem, 15rem;
@@ -1328,7 +1328,7 @@ footer a {
   aspect-ratio: 1;
   filter: grayscale() brightness(3);
   opacity: .045;
-  background: url(/beauty-port-logo.svg) 50% / contain no-repeat;
+  background: url(../beauty-port-logo.svg) 50% / contain no-repeat;
   inline-size: 38rem;
   position: absolute;
   inset: auto -9rem -17rem auto;
@@ -1718,7 +1718,7 @@ footer a {
   content: "";
   z-index: -1;
   opacity: .047;
-  background-image: url(/beauty-port-logo.svg), url(/beauty-port-logo.svg), url(/beauty-port-logo.svg);
+  background-image: url(../beauty-port-logo.svg), url(../beauty-port-logo.svg), url(../beauty-port-logo.svg);
   background-position: 92% 8%, 8% 42%, 75% 94%;
   background-repeat: no-repeat;
   background-size: 28rem, 18rem, 24rem;
