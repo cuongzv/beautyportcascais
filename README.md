@@ -76,7 +76,7 @@ favicon.svg             Favicon của site
 
 Thông tin liên hệ hiện tại (để đối chiếu khi sửa):
 
-- WhatsApp / Điện thoại: +351 913 440 980 (`https://wa.me/351913440980`)
+- WhatsApp / Điện thoại: +351 937 250 520 (`https://wa.me/351937250520`)
 - Instagram: @beautyport.cascais
 - Telegram: @alyona_filonenko
 - Google Maps: `https://maps.app.goo.gl/1NHgSxnDMhKRUUwT9?g_st=ic`
