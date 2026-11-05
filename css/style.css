@@ -251,6 +251,16 @@ h3 {
   font-size: .82rem;
 }
 
+.book-button--whatsapp {
+  background: #fff;
+  color: var(--teal-deep);
+  border-color: var(--teal);
+}
+
+.book-button--whatsapp:hover {
+  background: var(--mist);
+}
+
 .line-link {
   cursor: pointer;
   background: 0 0;
@@ -795,6 +805,10 @@ footer a {
 }
 
 .mobile-book {
+  display: none;
+}
+
+.mobile-book-bar {
   display: none;
 }
 
@@ -2231,6 +2245,34 @@ footer a {
     display: grid;
     position: fixed;
     inset: auto .8rem .8rem;
+    box-shadow: 0 .5rem 2rem #031f2140;
+  }
+
+  .mobile-book-bar {
+    z-index: 38;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: .6rem;
+    position: fixed;
+    inset: auto .8rem .8rem;
+  }
+
+  .mobile-book-bar .mobile-book {
+    position: static;
+    inset: auto;
+    inline-size: auto;
+    box-shadow: none;
+  }
+
+  .mobile-whatsapp {
+    background: #fff;
+    color: var(--teal-deep);
+    border: 1px solid var(--teal);
+    place-items: center;
+    min-block-size: 3.35rem;
+    font-weight: 800;
+    text-decoration: none;
+    display: grid;
     box-shadow: 0 .5rem 2rem #031f2140;
   }
 
