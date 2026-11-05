@@ -126,8 +126,8 @@ quên. Bảng dưới đây tóm tắt giá trị hiện tại và việc cần 
 | Dòng | File | Giá trị hiện tại | Khi nào phải đổi |
 |---|---|---|---|
 | `robots` | `index.html`, `uk/index.html`, `en/index.html` | `noindex, nofollow` | **Bắt buộc bỏ** khi đưa lên domain chính, nếu không Google sẽ không index web |
-| `canonical` | 3 khung trang | `https://example.com/` (+ `/uk/`, `/en/`) | **Bắt buộc đổi** thành `https://beautyportcascais.com/` (+ `/uk/`, `/en/`) khi lên domain chính |
-| `og:url` | 3 khung trang | `https://example.com/` (+ `/uk/`, `/en/`) | Đổi cùng với `canonical` |
+| `canonical` | 3 khung trang | `https://beautyportcascais.com/` (+ `/uk/`, `/en/`) (đã sửa 05/11/2026) | Đã đặt đúng domain chính. Nhân bản sang domain khác thì đổi sang domain mới |
+| `og:url` | 3 khung trang | `https://beautyportcascais.com/` (+ `/uk/`, `/en/`) (đã sửa 05/11/2026) | Đổi cùng với `canonical` |
 | Google Ads `gtag` | 3 khung trang | `AW-18306026037` | Giữ nguyên nếu vẫn chạy Ads cho salon này; đổi sang mã tài khoản Ads mới nếu đổi tài khoản |
 | Cloudflare Insights beacon | 3 khung trang | token `feaf43d132af4a53b01e6fa3b353b29c` | Đổi token nếu đổi tài khoản Cloudflare; xóa cũng được, web vẫn chạy |
 | Chuyển đổi Ads `send_to` | `js/main.js` | `AW-18306026037/ftDqCPqBofBcELWU_5hE` | Đổi **cả chuỗi** (mã tài khoản + mã hành động) khi sang tài khoản Ads khác; chỉ đổi đúng dòng `send_to`, các dòng `event_category`, `event_label`, `event_callback`, `event_timeout` giữ nguyên. File này dùng chung cho cả 3 ngôn ngữ nên đổi 1 lần là đủ |
@@ -139,8 +139,8 @@ domain chính để tránh trùng lặp nội dung trên Google.
 
 ## 7. Checklist trước khi đưa lên domain chính
 
-- [ ] Đã bỏ `noindex, nofollow` trong cả 3 khung trang.
-- [ ] Đã đổi `canonical` và `og:url` sang domain chính (PT, UA, EN đúng đường dẫn).
+- [x] Đã bỏ `noindex, nofollow` trong cả 3 khung trang (đã sửa 05/11/2026, đang là `index, follow`).
+- [x] Đã đổi `canonical` và `og:url` sang domain chính (PT, UA, EN đúng đường dẫn) (đã sửa 05/11/2026).
 - [ ] Đã kiểm tra mã Ads / beacon còn đúng tài khoản đang dùng không.
 - [ ] Đã deploy và kiểm tra trên domain chính: bấm menu PT → UA → EN, thử 1
       tab giá, thử portfolio/lightbox, thử nút WhatsApp / gọi điện.
